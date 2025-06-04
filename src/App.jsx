@@ -20,7 +20,7 @@ function App() {
       <ThemeProvider theme={darkMode.value ? darkTheme : lightTheme}>
         <GlobalStyles />
         <div className="App">
-          <BrowserRouter>
+          <BrowserRouter basename="/my-portfolio">
             <MainApp />
           </BrowserRouter>
         </div>

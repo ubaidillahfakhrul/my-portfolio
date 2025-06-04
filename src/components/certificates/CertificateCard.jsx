@@ -8,7 +8,7 @@ const CertificateCard = ({ certificate }) => {
       <Card className="h-100">
         <Card.Img
           variant="top"
-          src={certificate.image}
+          src={`${process.env.PUBLIC_URL}${certificate.image}`}  // 💡 Ini kuncinya!
           alt={certificate.title}
           style={{ height: '150px', objectFit: 'contain', padding: '1rem' }}
         />
