@@ -1,33 +1,47 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Data Analyst",
+            "subtitle": "FMCG company",
+            "workType": "Part-time",
+            "workDescription": [
+                "Database design using **MySQL**, create database **modeling**",
+                "Developed and maintained **SQL queries** to extract and manipulate datasets for reporting purposes"
+            ],
+            "dateText": "08/2023 – 07/2024"
+        },
+        {
+            "title": "Senior Radio Optimisation",
+            "subtitle": "CCSI company",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Reduce Customer **complaint**",
+                "Sharing Traffic with **Horizontal** & **Vertical** methode",
+                "Make **Power BI** dashboard to make easy Analyzing"
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "12/2022 – 12/2023"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
+            "title": "Senior Radio Optimisation",
+            "subtitle": "GCI company",
+            "workType": "Full-time",
             "workDescription": [
-                "Worked on abc."
+                "Trial and monitoring KPI after implementation feature NodeB level and RNC Level ",
+                "Make **Excel Dashborad** to make easy Analysing",
+                "Keep maintain network stability"
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "03/2018 – 09/2018"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "Senior Radio Optimisation",
+            "subtitle": "LMT company",
+            "workType": "Full-time",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Make **Excel Dashborad** to make easy Analysing",
+                "Follow up customer complain and follow transport to other department",
+                "Keep maintain network stability"
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "01/2016 – 07/2017"
         }
     ]
 }
