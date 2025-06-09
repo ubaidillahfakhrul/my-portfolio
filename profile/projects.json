@@ -23,6 +23,18 @@
         }
       ],
       "tags": ["Metabase", "Data Analyst", "SQL", "Power BI", "Data Visual"]
+    },
+    {
+      "image": "images/projects/finance-pbi-dash.png",
+      "title": "PBI-Sales Performance Financial",
+      "bodyText": "- Dynamic and insightful Power BI report.\n - Monitor and evaluate sales performance over time.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/ubaidillahfakhrul/pbi-sales-performance-financial"
+        }
+      ],
+      "tags": ["Financial", "Data Analyst", "SQL", "Power BI", "Data Visual"]
     }
   ]
 }
