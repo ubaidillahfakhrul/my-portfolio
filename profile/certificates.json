@@ -15,18 +15,53 @@
       "url": "https://www.credly.com/badges/22f2cfdd-2ab7-4f05-8016-dcee932f9403/public_url"
     },
     {
-      "title": "IBM Data Science Fundamentals with Python and SQL",
+      "title": "Data Science Fundamentals with Python and SQL",
       "image": "/images/certificates/data-science-fundamentals-specialization-v2.png",
       "organization": "Coursera",
       "issued": "6/4/25",
       "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/8V8HRXCDV3L2"
     },
     {
-      "title": "Google Regression Analysis: Simplify Complex Data Relationships",
+      "title": "Regression Analysis: Simplify Complex Data Relationships",
       "image": "/images/certificates/Regression_Analysis.png",
       "organization": "Coursera",
       "issued": "5/2/25",
       "url": "https://www.coursera.org/account/accomplishments/certificate/XIOF47ERYPG9"
+    },
+    {
+      "title": "Data Analysis and Visualization with Power BI",
+      "image": "/images/certificates/pbi data visual.png",
+      "organization": "Coursera",
+      "issued": "5/3/25",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/23T7DCQEPAME"
+    },
+    {
+      "title": "Statistics for Data Science with Python",
+      "image": "/images/certificates/statistic dsp.png",
+      "organization": "Coursera",
+      "issued": "4/28/25",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/VOHZWAP7798X"
+    },
+    {
+      "title": "Front-End Development Capstone Project",
+      "image": "/images/certificates/front_end_development_ibm.png",
+      "organization": "Coursera",
+      "issued": "5/21/25",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/CYNSXK0KJ9B0"
+    },
+    {
+      "title": "Data Visualization with Python",
+      "image": "/images/certificates/ds_visual_python_ibm.png",
+      "organization": "Coursera",
+      "issued": "7/24/24",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/OAMLJN8TWX1A"
+    },
+    {
+      "title": "Databases and SQL for Data Science with Python",
+      "image": "/images/certificates/dbsSQL_python_ibm.png",
+      "organization": "Coursera",
+      "issued": "3/11/25",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/RKPRI756D0OU"
     }
   ]
 }
