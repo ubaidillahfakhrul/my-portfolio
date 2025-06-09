@@ -1,7 +1,7 @@
 {
   "name": "portfolio-app",
   "version": "0.1.0",
-  "homepage" : "https://ubaidillahfakhrul.github.io/my-portfolio",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -44,6 +44,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
+    "set-dev": "node set-homepage.js dev",
+    "set-prod": "node set-homepage.js prod",
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {

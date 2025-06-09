@@ -21,7 +21,7 @@ function App() {
         <GlobalStyles />
         <div className="App">
           {/* <BrowserRouter basename={process.env.NODE_ENV === "production" ? "/my-portfolio" : "/"}>    */}
-          <BrowserRouter basename="/my-portfolio">
+          <BrowserRouter basename={process.env.REACT_APP_BASE_NAME}>
           {/* <BrowserRouter> */}
             <MainApp />
           </BrowserRouter>
