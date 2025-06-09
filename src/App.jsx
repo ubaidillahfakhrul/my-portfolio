@@ -21,8 +21,12 @@ function App() {
         <GlobalStyles />
         <div className="App">
           {/* ini kalau untuk localhost "basename/my-portfolio" di hapus */}
-          {/* <BrowserRouter basename={process.env.NODE_ENV === "production" ? "/my-portfolio" : "/"}>    */}
-          <BrowserRouter basename="my-portfolio">
+          <BrowserRouter
+            basename={
+              process.env.NODE_ENV === "production" ? "/my-portfolio" : "/"
+            }
+          >
+            {/* <BrowserRouter basename="my-portfolio"> */}
             <MainApp />
           </BrowserRouter>
         </div>
