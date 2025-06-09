@@ -35,6 +35,22 @@
         }
       ],
       "tags": ["Financial", "Data Analyst", "SQL", "Power BI", "Data Visual"]
+    },
+        {
+      "image": "images/projects/med-app2-web.png",
+      "title": "Web FullStack - Medical Appointment",
+      "bodyText": "- Schedule Appointments.\n - View Appointment History.\n - Give Feedback & Reviews for Doctors",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/ubaidillahfakhrul/new-med-app2"
+        },
+                {
+          "text": "Live",
+          "href": "https://new-med-app.onrender.com/"
+        }
+      ],
+      "tags": ["Web Developer", "React", "MonggoDB", "SQL", "Full Stack"]
     }
   ]
 }
