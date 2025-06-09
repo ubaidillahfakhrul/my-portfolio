@@ -16,6 +16,9 @@ const styles = {
   },
   cardStyle: {
     borderRadius: 10,
+    height: '100%', // Ensure card takes full height of column
+    display: 'flex',
+    flexDirection: 'column',
   },
   cardTitleStyle: {
     fontSize: 24,
@@ -23,6 +26,7 @@ const styles = {
   },
   cardTextStyle: {
     textAlign: 'left',
+    flexGrow: 1, // Allow text to grow and push buttons/footer down
   },
   linkStyle: {
     textDecoration: 'none',
@@ -30,6 +34,19 @@ const styles = {
   },
   buttonStyle: {
     margin: 5,
+  },
+  imageContainer: {
+    height: '200px', // Fixed height for image container
+    overflow: 'hidden', // Hide overflow if image is larger
+    display: 'flex',
+    alignItems: 'center', // Center image vertically
+    justifyContent: 'left', // Center image horizontally
+    backgroundColor: '#f8f9fa', // Optional: background color for image container
+  },
+  cardImage: {
+    width: '100%',
+    height: 'auto',
+    objectFit: 'cover', // Ensure image covers the area without distortion
   },
 };
 
@@ -49,8 +66,14 @@ const ProjectCard = (props) => {
         }}
         text={theme.bsSecondaryVariant}
       >
-        <Card.Img variant="top" src={project?.image} />
-        <Card.Body>
+        <div style={styles.imageContainer}>
+          <Card.Img 
+            variant="top" 
+            src={project?.image} 
+            style={styles.cardImage}
+          />
+        </div>
+        <Card.Body style={{ flexGrow: 1 }}>
           <Card.Title style={styles.cardTitleStyle}>{project.title}</Card.Title>
           <Card.Text style={styles.cardTextStyle}>
             {parseBodyText(project.bodyText)}

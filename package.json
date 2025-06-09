@@ -1,6 +1,5 @@
 {
   "name": "portfolio-app",
-  "homepage": "https://ubaidillahfakhrul.github.io/my-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
