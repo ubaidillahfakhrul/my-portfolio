@@ -1,16 +1,47 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Card from 'react-bootstrap/Card';
 import PropTypes from 'prop-types';
+import { ThemeContext } from 'styled-components';
+
+const styles = {
+  cardStyle: {
+    borderRadius: 10,
+  },
+  imgStyle: {
+    height: '150px',
+    objectFit: 'contain',
+    padding: '1rem',
+  },
+  linkStyle: {
+    textDecoration: 'none',
+  },
+};
 
 const CertificateCard = ({ certificate }) => {
+  const theme = useContext(ThemeContext);
+
   return (
-    <a href={certificate.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-      <Card className="h-100">
+    <a
+      href={certificate.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      style={styles.linkStyle}
+    >
+      <Card
+        className="h-100"
+        style={{
+          ...styles.cardStyle,
+          backgroundColor: theme.cardBackground,
+          borderColor: theme.cardBorderColor,
+          color: theme.bsSecondaryVariant,
+        }}
+        text={theme.bsSecondaryVariant}
+      >
         <Card.Img
           variant="top"
-          src={`${process.env.PUBLIC_URL}${certificate.image}`}  // 💡 Ini kuncinya!
+          src={`${process.env.PUBLIC_URL}${certificate.image}`}
           alt={certificate.title}
-          style={{ height: '150px', objectFit: 'contain', padding: '1rem' }}
+          style={styles.imgStyle}
         />
         <Card.Body>
           <Card.Title>{certificate.title}</Card.Title>

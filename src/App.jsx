@@ -20,7 +20,8 @@ function App() {
       <ThemeProvider theme={darkMode.value ? darkTheme : lightTheme}>
         <GlobalStyles />
         <div className="App">
-          <BrowserRouter basename="/my-portfolio">
+          {/* ini kalau untuk localhost "basename/my-portfolio" di hapus */}
+          <BrowserRouter basename={process.env.NODE_ENV === "production" ? "/my-portfolio" : "/"}>   
             <MainApp />
           </BrowserRouter>
         </div>

@@ -1,23 +1,19 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image" : "images/projects/pbi_dash_sample.png",
+            "title": "PBI Sales Performance",
+            "bodyText": "- business performance across sales, profitability, shipping efficiency\n -  customer segmentation",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "href": "https://github.com/ubaidillahfakhrul/pbi-sales-performance-dashboard"
                 }
             ],
             "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
+                "Data Visual",
+                "Power BI",
+                "SQL"
             ]
         },
         {
