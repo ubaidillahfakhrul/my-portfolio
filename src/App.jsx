@@ -21,8 +21,8 @@ function App() {
         <GlobalStyles />
         <div className="App">
           {/* <BrowserRouter basename={process.env.NODE_ENV === "production" ? "/my-portfolio" : "/"}>    */}
-          {/* <BrowserRouter basename="/my-portfolio"> */}
-          <BrowserRouter>
+          <BrowserRouter basename="/my-portfolio">
+          {/* <BrowserRouter> */}
             <MainApp />
           </BrowserRouter>
         </div>
